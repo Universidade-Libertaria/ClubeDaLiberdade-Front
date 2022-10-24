@@ -1,0 +1,35 @@
+footer{
+    background-color: var(--gray);
+    display: flex;
+    padding: 2.5rem;
+    justify-content: space-around;
+}
+
+footer img{
+    max-width: 13rem;
+    align-items: center;
+}
+
+.fticons{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    color: gray;
+}
+
+.ftlinks{
+    display: flex;
+    gap: 1rem;
+    color: gray;
+    align-items: center;
+}
+
+.ftlinks a{
+    color: gray;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-decoration: none;
+}
+
+.ftlinks a:hover{
+    color: white;
+}

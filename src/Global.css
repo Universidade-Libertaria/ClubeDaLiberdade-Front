@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+:root{
+    --gray: #222222;
+    --lightblack: rgba(0, 0, 0, 0.25);
+    --lightgray: #E2E2E2;
+    --yellow: #f3bf22;
+    --yellow2: #F5DE00;
+    --white2: rgb(249, 249, 249, 1)
+}
