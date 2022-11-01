@@ -1,15 +1,33 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-:root{
-    --gray: #222222;
-    --lightblack: rgba(0, 0, 0, 0.25);
-    --lightgray: #E2E2E2;
-    --yellow: #f3bf22;
-    --yellow2: #F5DE00;
-    --white2: rgb(249, 249, 249, 1)
+:root {
+  --gray: #222222;
+  --lightblack: rgba(0, 0, 0, 0.25);
+  --lightgray: #e2e2e2;
+  --yellow: #f3bf22;
+  --yellow2: #f5de00;
+  --white2: rgb(249, 249, 249, 1);
+}
+
+/*! Ficar alerta para o código abaixo. É padrão para responsividade */
+
+body {
+  -webkit-font-smoothing: antialiased;
+}
+
+body,
+textarea,
+input,
+button {
+  font-family: sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+button {
+  cursor: pointer;
 }

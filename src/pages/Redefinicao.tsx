@@ -1,9 +1,5 @@
-import React from 'react'
+import { Link } from "react-router-dom";
 
-export default function Redefinicao() {
-  return (
-    <>
-        
-    </>
-  )
+export function Redefinicao() {
+  return <Link to={"/"}>Voltar</Link>;
 }
