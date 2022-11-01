@@ -6,7 +6,7 @@ main{
     padding: 1rem;
 }
 
-.title{
+main h1{
     margin: 4rem;
     font-family: 'Source Sans Pro', sans-serif;
 }
@@ -22,16 +22,16 @@ main{
     align-items: center;
     justify-content: center;
     gap: 2.8125rem;
+    padding: 2rem 2rem;
     background-color: var(--white2);
     border-radius: 10px;
-    width: 33.4375rem;
-    height: 31.125rem;
+    max-width: 33.4375rem;
 }
 
 .loginform input{
     border-radius: 5px;
-    width: 29.25rem;
-    height: 2.5625rem;
+    padding: 1rem .5rem ;
+    width: 29.25rem ; 
     border: none;
     background-color: var(--lightgray);
     outline: none;

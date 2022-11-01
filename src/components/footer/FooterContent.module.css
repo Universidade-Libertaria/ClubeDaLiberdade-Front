@@ -1,20 +1,33 @@
 footer{
     background-color: var(--gray);
+}
+
+.fter{
     display: flex;
-    padding: 2.5rem;
-    justify-content: space-around;
+    padding: 2rem;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 75%;
+    margin-inline: auto;
+    gap: 2rem;
 }
 
 footer img{
     max-width: 13rem;
-    align-items: center;
 }
 
 .fticons{
     display: flex;
-    gap: 1rem;
+    gap: 1.5rem;
     align-items: center;
+}
+
+.fticons a{
     color: gray;
+}
+
+.fticons a:hover{
+    color: white;
 }
 
 .ftlinks{
@@ -32,4 +45,13 @@ footer img{
 
 .ftlinks a:hover{
     color: white;
+}
+
+
+@media screen and (max-width: 1300px){
+ 
+    .fter{
+        max-width: 100%;
+    }
+
 }

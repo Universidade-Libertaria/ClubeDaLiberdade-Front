@@ -1,8 +1,16 @@
 header{
     background-color: var(--gray);
+    width: 100%;
+}
+
+.headerContainer{
     display: flex;
-    padding: 1.25rem;
-    justify-content: space-around;
+    max-width: 75%;
+    margin-inline: auto;
+    padding: 2rem;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
 }
 
 header img{
@@ -13,7 +21,6 @@ header img{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 6rem;
 }
 
 .NavBar{
@@ -38,8 +45,7 @@ header img{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 1.25rem; 
-   
+    gap: 1.25rem;
 }
 
 .btns button{
@@ -51,4 +57,13 @@ header img{
     padding: .5rem 2rem;
     font-family: 'Work Sans', sans-serif;
     font-weight: 600;
+
+}
+
+@media screen and (max-width: 1300px){
+ 
+    .headerContainer{
+        max-width: 100%;
+    }
+
 }
