@@ -1,82 +1,81 @@
-main{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 1rem;
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
 }
 
-main h1{
-    margin: 4rem;
-    font-family: 'Source Sans Pro', sans-serif;
+main h1 {
+  margin: 4rem;
+  font-family: "Source Sans Pro", sans-serif;
 }
 
-.loginform img{
-    max-width: 3.5rem;
-    margin-bottom: 3rem;
+.loginform img {
+  max-width: 3.5rem;
+  margin-bottom: 3rem;
 }
 
-.loginform{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 2.8125rem;
-    padding: 2rem 2rem;
-    background-color: var(--white2);
-    border-radius: 10px;
-    max-width: 33.4375rem;
+.loginform {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2.8125rem;
+  padding: 2rem 2rem;
+  background-color: var(--white2);
+  border-radius: 10px;
+  max-width: 33.4375rem;
 }
 
-.loginform input{
-    border-radius: 5px;
-    padding: 1rem .5rem ;
-    width: 29.25rem ; 
-    border: none;
-    background-color: var(--lightgray);
-    outline: none;
+.loginform input {
+  border-radius: 5px;
+  padding: 1rem 0.5rem;
+  width: 29.25rem;
+  border: none;
+  background-color: var(--lightgray);
+  outline: none;
 }
 
-.loginform input::placeholder{
-   padding: 1rem;
+.loginform input::placeholder {
+  padding: 1rem;
 }
 
-.lgnbtn{
-    width: 29rem;
-    height: 4rem;
-    margin-top: 2rem;
-    cursor: pointer;
-    border-radius: 5px;
-    border: none;
-    box-shadow: 0px 4px 4px var(--lightblack);
-    background-color: var(--yellow2);
-    font-family: 'Source Sans Pro', sans-serif;
-    font-weight: 600;
-    font-size: 20px;
+.lgnbtn {
+  width: 29rem;
+  height: 4rem;
+  margin-top: 2rem;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0px 4px 4px var(--lightblack);
+  background-color: var(--yellow-200);
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
 }
 
-.NewMemBtn{
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    padding: 2rem;
-    margin-bottom: 2rem;
+.NewMemBtn {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  padding: 2rem;
+  margin-bottom: 2rem;
 }
 
-.NewMemBtn button{
-    color: white;
-    background-color: black;
-    font-family: 'Source Sans Pro', sans-serif;
-    cursor: pointer;
-    border-radius: 5px;
-    font-weight: 600;
-    padding: 0.5rem 2rem;
+.NewMemBtn button {
+  color: white;
+  background-color: black;
+  font-family: "Source Sans Pro", sans-serif;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: 600;
+  padding: 0.5rem 2rem;
 }
 
-
-form a{
-    text-decoration: none;
-    font-family: 'Source Sans Pro', sans-serif;
-    text-align: center;
-    color: var(--black);
+form a {
+  text-decoration: none;
+  font-family: "Source Sans Pro", sans-serif;
+  text-align: center;
+  color: var(--black);
 }
