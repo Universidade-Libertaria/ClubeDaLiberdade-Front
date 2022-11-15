@@ -45,7 +45,7 @@ export function Planos() {
             <li>Aulões e Tira Dúvidas</li>
             <li>Desconto com Parceiros</li>
             <li>Acesso a alguns Cursos</li>
-            <li>Contêm anúncios</li>
+            <li>Sem anúncios</li>
             <li>
               <s>Grupos Exclusivos</s>
             </li>
@@ -73,7 +73,7 @@ export function Planos() {
             <li>Aulões e Tira Dúvidas</li>
             <li>Desconto com Parceiros</li>
             <li>Acesso a alguns Cursos</li>
-            <li>Contêm anúncios</li>
+            <li>Sem anúncios</li>
             <li>Grupos Exclusivos</li>
             <li>Aplicativo Exclusivo</li>
             <li>Aulas Presenciais</li>

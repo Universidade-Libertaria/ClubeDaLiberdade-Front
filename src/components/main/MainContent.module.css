@@ -63,7 +63,7 @@ main h1 {
   margin-bottom: 2rem;
 }
 
-.NewMemBtn button {
+.NewMemBtn a {
   color: white;
   background-color: black;
   font-family: "Source Sans Pro", sans-serif;
