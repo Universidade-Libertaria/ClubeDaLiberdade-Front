@@ -8,8 +8,9 @@
   --gray: #222222;
   --lightblack: rgba(0, 0, 0, 0.25);
   --lightgray: #e2e2e2;
+  --gray-100: #f9f9f9;
   --yellow: #f3bf22;
-  --yellow2: #f5de00;
+  --yellow-200: #f5de00;
   --white2: rgb(249, 249, 249, 1);
 }
 

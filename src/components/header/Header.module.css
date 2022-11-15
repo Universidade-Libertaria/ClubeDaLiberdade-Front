@@ -1,69 +1,65 @@
-header{
-    background-color: var(--gray);
-    width: 100%;
+header {
+  background-color: var(--gray);
+  /*  width: 100%; */
 }
 
-.headerContainer{
-    display: flex;
-    max-width: 75%;
-    margin-inline: auto;
-    padding: 2rem;
-    justify-content: space-between;
-    align-items: center;
-    gap: 2rem;
+.headerContainer {
+  display: flex;
+  max-width: 75%;
+  margin-inline: auto;
+  padding: 13.5px 2rem;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
 }
 
-header img{
-    max-width: 13rem;
+header img {
+  max-width: 13rem;
 }
 
-.menuheader{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.menuheader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.NavBar{
-    display: flex;
-    list-style: none;
-    justify-content: center;
-    align-items: center;
-    gap: 1.25rem;
-
+.NavBar {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+  gap: 1.25rem;
 }
 
-.NavBar li a{
-    color: white;
-    cursor: pointer;
-    background-color: none;
-    text-decoration: none;
-    font-family: 'Work Sans', sans-serif;
-    font-weight: 400;
+.NavBar li a {
+  color: white;
+  cursor: pointer;
+  background-color: none;
+  text-decoration: none;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 400;
 }
 
-.btns{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 1.25rem;
+.btns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.25rem;
 }
 
-.btns button{
-    border-radius: 3px;
-    outline: none;
-    cursor: pointer;
-    border: none;
-    background-color: var(--yellow2);
-    padding: .5rem 2rem;
-    font-family: 'Work Sans', sans-serif;
-    font-weight: 600;
-
+.btns button {
+  border-radius: 3px;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  background-color: var(--yellow-200);
+  padding: 0.5rem 2rem;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 600;
 }
 
-@media screen and (max-width: 1300px){
- 
-    .headerContainer{
-        max-width: 100%;
-    }
-
+@media screen and (max-width: 1300px) {
+  .headerContainer {
+    max-width: 100%;
+  }
 }
