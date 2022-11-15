@@ -15,7 +15,7 @@ export function MainContent() {
         <a href=''>Esqueceu o usuário ou senha?</a>
       </form>
       <div className={styles.NewMemBtn}>
-        <Link to={"/Redef"}>Não é um membro ainda? Participe!</Link>
+        <Link to={"/Planos"}>Não é um membro ainda? Participe!</Link>
       </div>
     </main>
   );
