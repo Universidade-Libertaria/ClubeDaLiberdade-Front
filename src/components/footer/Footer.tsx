@@ -9,11 +9,13 @@ import {
   TwitterLogo,
 } from "phosphor-react";
 
+import { Link } from "react-router-dom";
+
 export function Footer() {
   return (
     <footer>
       <div className={styles.fter}>
-        <img src={Logo} />
+        <Link to={"/inicio"}><img src={Logo} /></Link>
 
         <div className={styles.ftlinks}>
           <a href=''>contato@universidadelibertaria.com</a>

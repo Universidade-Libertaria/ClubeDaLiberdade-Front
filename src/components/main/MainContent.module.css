@@ -68,6 +68,7 @@ main h1 {
   background-color: black;
   font-family: "Source Sans Pro", sans-serif;
   cursor: pointer;
+  text-decoration: none;
   border-radius: 5px;
   font-weight: 600;
   padding: 0.5rem 2rem;

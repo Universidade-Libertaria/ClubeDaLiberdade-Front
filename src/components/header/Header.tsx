@@ -1,12 +1,13 @@
 import React from 'react'
 import styles from './Header.module.css'
 import Logo from '../../assets/Logo.png'
+import { Link } from 'react-router-dom'
 
 export function Header() {
   return (
         <header>
             <div className={styles.headerContainer}>
-              <img src={Logo} alt="" />
+            <Link to={"/inicio"}><img src={Logo} alt="" /></Link>
               <div className={styles.menuheader}>
                 <nav>
                   <ul className={styles.NavBar}>
@@ -19,7 +20,7 @@ export function Header() {
   
               <div className={styles.btns}>
                   <button>CLUBE DA LIBERDADE</button>
-                  <button>LOGIN</button>
+                  <Link to={"/"}><button>LOGIN</button></Link>
               </div>
             </div>
         </header>

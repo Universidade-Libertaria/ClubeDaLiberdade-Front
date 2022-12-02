@@ -1,0 +1,27 @@
+.pnl{
+    width: 100%;
+    flex-direction: column;
+}
+
+.banner{
+    width: 1920px;
+    height: 300px;
+    margin-top: -1rem;
+    margin: -1rem;
+    background-image: url("../../assets/painelimg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.banner img{
+    width: 100%;
+}
+
+.banner h1{
+    display: flex;
+    color: var(--white2);
+    position: absolute;
+    letter-spacing: 6px;
+    padding: 5rem;
+}
